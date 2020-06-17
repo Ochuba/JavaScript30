@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(https://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(https://res.cloudinary.com/esambooks/image/upload/v1592406300/Tribute/simon-noh-0rmby-3OTeI-unsplash_pjuqpa.jpg) bottom center;
   background-size: cover;
 }
 
@@ -48,4 +48,13 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+/** For devices lesser than 300 px in width */
+
+ @media only screen and (max-width: 600px) {
+ 
+  .keys{
+      display: flex;
+      flex-direction: column;
+ }
 }
